@@ -31,7 +31,7 @@ pandas, matplotlib, seaborn, tqdm
 
 yfinance for financial data acquisition
 
-## Model:
+## Model
 
 FinBERT (Pretrained transformer fine-tuned on financial sentiment data) & VADAR
 
