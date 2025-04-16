@@ -19,17 +19,17 @@ Python
 
 ## Natural Language Processing Libraries
 
-spaCy for Named Entity Recognition (NER)
+- spaCy for Named Entity Recognition (NER)
 
-transformers for FinBERT sentiment classification
+- transformers for FinBERT sentiment classification
 
-nltk and VADER for rule-based sentiment comparison
+- nltk and VADER for rule-based sentiment comparison
 
-Data Handling & Visualization:
+## Data Handling & Visualization
 
-pandas, matplotlib, seaborn, tqdm
+- pandas, matplotlib, seaborn, tqdm
 
-yfinance for financial data acquisition
+- yfinance for financial data acquisition
 
 ## Model
 
