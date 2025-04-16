@@ -1,6 +1,5 @@
 # Predicting Financial Risk Using NLP: A Sentiment- and Entity-Based Approach
 
-## Objective
 This project investigates whether financial risk at the company level can be anticipated and quantified through sentiment analysis and named entity recognition (NER) in financial news. By analyzing recent headlines and articles from trusted sources such as Google News and Yahoo Finance, we aim to construct a sentiment-informed risk score and explore how it aligns with real market behavior, especially during periods of volatility.
 
 The broader goal is to create a repeatable and scalable NLP framework that empowers both institutional and retail investors to gauge emerging risks in real time, driven by language signals in financial media.
