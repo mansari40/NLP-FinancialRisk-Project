@@ -18,7 +18,7 @@ Stock Prices: Historical daily price data from Yahoo Finance using yfinance, use
 
 Python
 
-Natural Language Processing Libraries:
+## Natural Language Processing Libraries
 
 spaCy for Named Entity Recognition (NER)
 
@@ -38,13 +38,13 @@ FinBERT (Pretrained transformer fine-tuned on financial sentiment data) & VADAR
 
 ## Methodology
 
-## Data Collection:
+## Data Collection
 
 News scraped in real-time using queries like “Tesla news,” “Amazon earnings,” etc.
 
 Data filtered and stored in a preprocessed CSV format.
 
-## Sentiment Analysis:
+## Sentiment Analysis
 
 Applied both VADER (rule-based) and FinBERT (transformer-based) sentiment models.
 
@@ -52,7 +52,7 @@ Each news snippet is classified as positive, neutral, or negative.
 
 Visual comparisons made to show how sentiment varies across companies and methods.
 
-## Named Entity Recognition:
+## Named Entity Recognition
 
 Used spaCy to identify entity types (ORG, GPE, DATE, etc.) across the corpus.
 
