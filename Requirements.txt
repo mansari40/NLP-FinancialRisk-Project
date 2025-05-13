@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+tqdm
+requests
+nltk
+spacy
+yfinance
+gensim
+torch
+scikit-learn
+xgboost
+transformers
