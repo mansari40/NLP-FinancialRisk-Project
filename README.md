@@ -47,7 +47,7 @@ Stock Prices: Historical daily price data from Yahoo Finance using yfinance, use
 
 Python
 
-## Natural Language Processing Libraries
+## Key Libraries
 
 - **Language Models**: `FinBERT`, `VADER`
 - **NER**: `spaCy`
