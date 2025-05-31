@@ -21,18 +21,18 @@ for risk forecasting with unstructured data that has a direct impact on trading 
 investment risk management.         
             
 ## Key Findings: 
-Model Comparison in Sentiment Analysis: 
+Model Comparison in Sentiment Analysis:                         
 FinBERT sentiment analysis has been very precise and accurate in comparison to VADER, 
 especially in the detection of subtle negative market signals of Tesla. 
-Entity-Specific Sentiment Patterns: 
+Entity-Specific Sentiment Patterns:                                     
 DATE entities (e.g., weekdays) were highly linked to negative sentiment, highlighting 
 market sensitivity to timely news. 
-Topic Modeling Insights: 
+Topic Modeling Insights:                                                 
 It revealed that Nvidia's news coverage focused on political threats and advancements in 
 AI/chip technology, which reflected investor concerns. 
-Performance of Predictive Models: 
+Performance of Predictive Models:                                                 
 XGBoost performed better than all other models with an increased F1-score of 79% and 
-ROC-AUC of 83% after the hyperparameter tuning was conducted. 
+ROC-AUC of 83% after the hyperparameter tuning was conducted.                                                 
 
 ## Research Question
 To what extent can financial risk at the company level be anticipated and measured using sentiment analysis and named entity recognition in financial news, and how closely do these sentiment-based risk scores match the behavior of stock markets over time?
