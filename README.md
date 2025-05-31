@@ -1,10 +1,38 @@
 # Predicting Financial Risk Using NLP: A Sentiment- and Entity-Based Approach
 
-This project explores the extent to which **natural language in financial news** can predict **company-level risk**. By combining **sentiment analysis**, **named entity recognition (NER)**, and **topic modeling**, we create **risk scores** from news headlines and validate them against real-world stock market behavior, especially during periods of volatility.
-
-We then use this enriched feature set to train **machine learning classifiers** that predict short-term financial risk, rigorously evaluating model performance via **confusion matrices** and **ROC-AUC curves**.
-
-The broader goal is to create a repeatable and scalable NLP framework that empowers both institutional and retail investors to gauge emerging risks in real time, driven by language signals in financial media.
+This project, “Predicting Financial Risk using NLP, a Sentiment and Entity Based 
+Approach” analyses whether financial risk at the company level can be predicted using natural 
+language processing techniques applied to financial news. By integrating sentiment analysis and 
+named entity recognition with structured financial market data, the study constructs a robust 
+framework for identifying high risk trading days.              
+Through automated scrapping of Google News, a corpus of 1783 news articles about Apple, 
+Tesla, Nvidia and Amazon was gathered, which were further processed to develop sentiment 
+models for two namely VADAR (lexicon-based) and FinBert (finance specific transformer). 
+Named entities were extracted, and topics were modeled using Latent Dirichlet Allocation (LDA) 
+to capture narrative themes and a unique risk score was developed by combining negative 
+sentiment intensity, scaled volatility, and positive sentiment to measure the daily market 
+uncertainty level.         
+To identify days with a high-risk, supervised machine learning models were trained, tested 
+and hyperparameter tuned using topic distributions, sentiment signals, and market indicators. The 
+results reveal a robust relationship between market volatility and price drops, most evident for 
+Tesla and Apple. This study illustrates the potential of advanced natural language processing 
+(NLP) models as a financial risk early warning indicator. It provides a firm-level, scalable method 
+for risk forecasting with unstructured data that has a direct impact on trading strategy and 
+investment risk management.         
+            
+## Key Findings: 
+Model Comparison in Sentiment Analysis: 
+FinBERT sentiment analysis has been very precise and accurate in comparison to VADER, 
+especially in the detection of subtle negative market signals of Tesla. 
+Entity-Specific Sentiment Patterns: 
+DATE entities (e.g., weekdays) were highly linked to negative sentiment, highlighting 
+market sensitivity to timely news. 
+Topic Modeling Insights: 
+It revealed that Nvidia's news coverage focused on political threats and advancements in 
+AI/chip technology, which reflected investor concerns. 
+Performance of Predictive Models: 
+XGBoost performed better than all other models with an increased F1-score of 79% and 
+ROC-AUC of 83% after the hyperparameter tuning was conducted. 
 
 ## Research Question
 To what extent can financial risk at the company level be anticipated and measured using sentiment analysis and named entity recognition in financial news, and how closely do these sentiment-based risk scores match the behavior of stock markets over time?
